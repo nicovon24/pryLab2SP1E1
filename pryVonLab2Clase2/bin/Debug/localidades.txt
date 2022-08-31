@@ -1,3 +1,5 @@
-dd,5
-loc,2
-buenos aires,3
+aa,4
+cba,4
+bs as,2
+salta,6
+jujuy,7

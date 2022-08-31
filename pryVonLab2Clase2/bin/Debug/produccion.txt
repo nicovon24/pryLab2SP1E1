@@ -1,1 +1,6 @@
-loc. ddd. 6 toneladas Fecha 04/08/2022 0:00:00
+cba,merca,3,8/31/2022 12:00:00 AM
+salta,dd,3,8/31/2022 12:00:00 AM
+aa,zanahoria,2,8/31/2022 12:00:00 AM
+jujuy,kk,2,8/31/2022 12:00:00 AM
+aa,dd,3,8/31/2022 12:00:00 AM
+jujuy,merca,7,8/31/2022 12:00:00 AM

@@ -1,2 +1,5 @@
-ddd,3
-bananas y manzanas,5
+dd,5
+soja,3
+merca,4
+kk,10
+zanahoria,20
