@@ -35,6 +35,21 @@ namespace pryVonLab2Clase2
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
+            string msg = "";
+            /* ADD THE DATA!!! */
+            string localidad = cbLocalidades.Text;
+            string cultivo = cbCultivos.Text;
+            int toneladas = Convert.ToInt32(nudToneladas.Text);
+            if(localidad!="" && cultivo!="" && toneladas != 0)
+            {
+                msg = localidad + ". " + cultivo + ". " + toneladas;
+                using (StreamWriter sw = File.AppendText("./produccion.txt"))
+                {
+                    sw.WriteLine(msg);
+                }
+                MessageBox.Show("Added data");
+            }
+            else { MessageBox.Show("Complete the data, please!"); }
         }
 
         private void cbLocalidades_SelectedIndexChanged(object sender, EventArgs e)
@@ -45,6 +60,12 @@ namespace pryVonLab2Clase2
         private void cbCultivos_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            File.WriteAllText("./produccion.txt", "");
+            MessageBox.Show("Data erased");
         }
     }
 }

@@ -32,7 +32,7 @@ namespace pryVonLab2Clase2
             nombre = txtNombre.Text;
             if (id != 0 && nombre != "")
             {
-                msg = nombre + ", " + id;
+                msg = nombre + " " + id;
                 localidades.Add(msg);
                 ids.Add(id);
                 int count = 0; //the id must be only once in the list

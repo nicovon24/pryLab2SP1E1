@@ -38,6 +38,7 @@ namespace pryVonLab2Clase2
             this.lblDate = new System.Windows.Forms.Label();
             this.cbLocalidades = new System.Windows.Forms.ComboBox();
             this.cbCultivos = new System.Windows.Forms.ComboBox();
+            this.btnReset = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudToneladas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,6 +76,11 @@ namespace pryVonLab2Clase2
             // 
             this.nudToneladas.Location = new System.Drawing.Point(176, 247);
             this.nudToneladas.Margin = new System.Windows.Forms.Padding(4);
+            this.nudToneladas.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
             this.nudToneladas.Name = "nudToneladas";
             this.nudToneladas.Size = new System.Drawing.Size(288, 22);
             this.nudToneladas.TabIndex = 9;
@@ -127,11 +133,23 @@ namespace pryVonLab2Clase2
             this.cbCultivos.TabIndex = 14;
             this.cbCultivos.SelectedIndexChanged += new System.EventHandler(this.cbCultivos_SelectedIndexChanged);
             // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(19, 329);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(100, 28);
+            this.btnReset.TabIndex = 15;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
             // frmProduccion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(520, 394);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.cbCultivos);
             this.Controls.Add(this.cbLocalidades);
             this.Controls.Add(this.lblDate);
@@ -161,5 +179,6 @@ namespace pryVonLab2Clase2
         private System.Windows.Forms.Label lblDate;
         private System.Windows.Forms.ComboBox cbLocalidades;
         private System.Windows.Forms.ComboBox cbCultivos;
+        private System.Windows.Forms.Button btnReset;
     }
 }
