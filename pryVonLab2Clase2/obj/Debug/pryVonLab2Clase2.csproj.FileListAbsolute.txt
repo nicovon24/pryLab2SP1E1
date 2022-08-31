@@ -81,3 +81,4 @@ C:\Users\Nicolas Von Muhlinen\OneDrive\AA- Analisis en Sist\Años\Año 1\2 semes
 C:\Users\Nicolas Von Muhlinen\OneDrive\AA- Analisis en Sist\Años\Año 1\2 semestre\Materias\Lab 2\trabajos sp\prySP1\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.csproj.CoreCompileInputs.cache
 C:\Users\Nicolas Von Muhlinen\OneDrive\AA- Analisis en Sist\Años\Año 1\2 semestre\Materias\Lab 2\trabajos sp\prySP1\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.exe
 C:\Users\Nicolas Von Muhlinen\OneDrive\AA- Analisis en Sist\Años\Año 1\2 semestre\Materias\Lab 2\trabajos sp\prySP1\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.pdb
+C:\Users\Nicolas Von Muhlinen\OneDrive\AA- Analisis en Sist\Años\Año 1\2 semestre\Materias\Lab 2\trabajos sp\prySP1\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.frmConsulta.resources

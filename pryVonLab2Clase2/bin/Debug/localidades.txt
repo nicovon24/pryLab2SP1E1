@@ -1,5 +1,3 @@
-aa,4
-cba,4
-bs as,2
-salta,6
-jujuy,7
+Cba,10
+Bs As,2
+Salta,1

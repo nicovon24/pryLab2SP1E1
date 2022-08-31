@@ -1,5 +1,4 @@
-dd,5
-soja,3
-merca,4
-kk,10
-zanahoria,20
+Merca,2
+Zanahoria,3
+Melon,10
+KK,20

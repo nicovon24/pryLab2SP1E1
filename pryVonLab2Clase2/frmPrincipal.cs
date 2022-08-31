@@ -42,7 +42,8 @@ namespace pryVonLab2Clase2
 
         private void produccionPorLocalidadYCultivoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmConsulta frmNew = new frmConsulta();
+            frmNew.Show();
         }
     }
 }

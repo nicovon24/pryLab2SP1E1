@@ -13,12 +13,6 @@ namespace pryVonLab2Clase2
 {
     public partial class frmLocalidades : Form
     {
-        //global arrays, we will use them to prevent repetitions of the ids
-        List<String> localidades = new List<String>();
-        List<int> ids = new List<int>();
-
-        //transforming the data file into string, returns a list so we access it with [i]. Use it then!!
-        List<string> lines = System.IO.File.ReadLines("./localidades.txt").ToList(); 
         public frmLocalidades()
         {
             InitializeComponent();
@@ -26,29 +20,28 @@ namespace pryVonLab2Clase2
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            int id;
             string nombre, msg;
-            id = Convert.ToInt32(nudID.Text);
+            int id;
             nombre = txtNombre.Text;
+            id = Convert.ToInt32(nudID.Text);
+            bool idIsRepeated = false; //flag to check if id is repeated
+            StreamReader srLocalidades = new StreamReader("./localidades.txt");
             if (id != 0 && nombre != "")
             {
                 msg = nombre + "," + id;
-                localidades.Add(msg);
-                ids.Add(id);
-                int count = 0; //the id must be only once in the list
-                bool idIsRepeated = false; //flag to check if id is repeated
+                char separador = Convert.ToChar(",");
+                while (!srLocalidades.EndOfStream)
+                {
+                    string[] arrLocalidades = srLocalidades.ReadLine().Split(separador);
+                    int idArr = Convert.ToInt32(arrLocalidades[1]);
+                    if (id == idArr) { 
+                        idIsRepeated = true;
+                        MessageBox.Show("ID repeated.");
+                    }
+                }
+                srLocalidades.Close();
                 using (StreamWriter sw = File.AppendText("./localidades.txt"))
                 {
-                    for(int i = 0; i < ids.Count; i++)
-                    {
-                        if ( id == ids[i] ) //if it is in the list, we sum +1
-                        {
-                            count++;
-                        }
-                    } 
-                    //if it is more than once in the list, id is repeated will be true
-                    if (count > 1) { idIsRepeated = true; }
-
                     //if it is not repeated, we execute show it in the file
                     if (idIsRepeated == false){
                         sw.WriteLine(msg);
@@ -60,6 +53,7 @@ namespace pryVonLab2Clase2
                     {
                         MessageBox.Show("Id repeated!");
                     }
+                    sw.Close();
                 }
             }
             else
