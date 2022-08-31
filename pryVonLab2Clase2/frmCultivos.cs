@@ -33,7 +33,7 @@ namespace pryVonLab2Clase2
             //checking that codigo and nombre are not null
             if (codigo != 0 && nombre != "")
             {
-                msg = nombre + " " + codigo;
+                msg = nombre + "," + codigo;
                 cultivos.Add(nombre);
                 codigos.Add(codigo);
                 int count = 0; //the codigo must be only once in the list

@@ -22,12 +22,17 @@ namespace pryVonLab2Clase2
         {
             StreamReader locationsReader = new StreamReader("./localidades.txt");
             StreamReader cultivosReader = new StreamReader("./cultivos.txt");
-            while (!locationsReader.EndOfStream) {  
-                cbLocalidades.Items.Add(locationsReader.ReadLine());
+            
+            char separador = Convert.ToChar(",");
+
+            while (!locationsReader.EndOfStream) {
+                string[] location = locationsReader.ReadLine().Split(separador);
+                cbLocalidades.Items.Add(location[0]);
             }
             while (!cultivosReader.EndOfStream)
             {
-                cbCultivos.Items.Add(cultivosReader.ReadLine());
+                string[] cultivos = cultivosReader.ReadLine().Split(separador);
+                cbCultivos.Items.Add(cultivos[0]);
             }
             locationsReader.Close();
             cultivosReader.Close();
@@ -37,12 +42,13 @@ namespace pryVonLab2Clase2
         {
             string msg = "";
             /* ADD THE DATA!!! */
+            DateTime varDate = dateDate.Value.Date;
             string localidad = cbLocalidades.Text;
             string cultivo = cbCultivos.Text;
             int toneladas = Convert.ToInt32(nudToneladas.Text);
             if(localidad!="" && cultivo!="" && toneladas != 0)
             {
-                msg = localidad + ". " + cultivo + ". " + toneladas;
+                msg = "Localidad: " + localidad + " | " + "Cultivo: " + cultivo + " | " + "Toneladas: " + toneladas + " | Fecha " + varDate;
                 using (StreamWriter sw = File.AppendText("./produccion.txt"))
                 {
                     sw.WriteLine(msg);

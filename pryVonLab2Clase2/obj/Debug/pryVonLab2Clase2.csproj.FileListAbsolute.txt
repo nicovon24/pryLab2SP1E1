@@ -53,3 +53,17 @@ C:\Users\Nicolas Von Muhlinen\OneDrive\AA- Analisis en Sist\Años\Año 1\2 semes
 C:\Users\Nicolas Von Muhlinen\OneDrive\AA- Analisis en Sist\Años\Año 1\2 semestre\Materias\Lab 2\trabajos sp\prySP1\pryVonLab2Clase2\bin\Debug\pryVonLab2Clase2.exe.config
 C:\Users\Nicolas Von Muhlinen\OneDrive\AA- Analisis en Sist\Años\Año 1\2 semestre\Materias\Lab 2\trabajos sp\prySP1\pryVonLab2Clase2\bin\Debug\pryVonLab2Clase2.exe
 C:\Users\Nicolas Von Muhlinen\OneDrive\AA- Analisis en Sist\Años\Año 1\2 semestre\Materias\Lab 2\trabajos sp\prySP1\pryVonLab2Clase2\bin\Debug\pryVonLab2Clase2.pdb
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\bin\Debug\pryVonLab2Clase2.exe.config
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\bin\Debug\pryVonLab2Clase2.exe
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\bin\Debug\pryVonLab2Clase2.pdb
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.csproj.AssemblyReference.cache
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.frmCultivos.resources
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.frmLocalidades.resources
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.frmPrincipal.resources
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.frmProduccion.resources
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.Properties.Resources.resources
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.csproj.GenerateResource.cache
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.exe
+C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.pdb
