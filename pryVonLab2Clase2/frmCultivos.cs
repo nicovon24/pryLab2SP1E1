@@ -20,7 +20,7 @@ namespace pryVonLab2Clase2
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-             bint codigo;
+            int codigo;
             string nombre, msg;
             codigo = Convert.ToInt32(nudCodigo.Text);
             nombre = txtNombre.Text;
