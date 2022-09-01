@@ -37,7 +37,7 @@ namespace pryVonLab2Clase2
                 multidimListData.Add(Data);
             }
             srProduccion.Close();
-            for (int fila = 1; fila < multidimListData.Count; fila++)
+            for (int fila = 0; fila < multidimListData.Count; fila++)
             {
                 grdQuery.Rows.Add(
                     multidimListData[fila][0],
@@ -46,10 +46,6 @@ namespace pryVonLab2Clase2
                 );
             }
 
-            for (int fila = 1; fila < multidimListData.Count; fila++)
-            {
-
-            }
         }
 
         private void grdQuery_CellContentClick(object sender, DataGridViewCellEventArgs e)
