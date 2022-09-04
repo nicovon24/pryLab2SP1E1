@@ -37,6 +37,7 @@ namespace pryVonLab2Clase2
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produccionPorLocalidadYCultivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consulta2PRUEBAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,43 +61,44 @@ namespace pryVonLab2Clase2
             this.produccionToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
-            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
+            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
             this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
             // 
             // localidadesToolStripMenuItem
             // 
             this.localidadesToolStripMenuItem.Name = "localidadesToolStripMenuItem";
-            this.localidadesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.localidadesToolStripMenuItem.Size = new System.Drawing.Size(171, 26);
             this.localidadesToolStripMenuItem.Text = "Localidades";
             this.localidadesToolStripMenuItem.Click += new System.EventHandler(this.localidadesToolStripMenuItem_Click);
             // 
             // cultivosToolStripMenuItem
             // 
             this.cultivosToolStripMenuItem.Name = "cultivosToolStripMenuItem";
-            this.cultivosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cultivosToolStripMenuItem.Size = new System.Drawing.Size(171, 26);
             this.cultivosToolStripMenuItem.Text = "Cultivos";
             this.cultivosToolStripMenuItem.Click += new System.EventHandler(this.cultivosToolStripMenuItem_Click);
             // 
             // produccionToolStripMenuItem
             // 
             this.produccionToolStripMenuItem.Name = "produccionToolStripMenuItem";
-            this.produccionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.produccionToolStripMenuItem.Size = new System.Drawing.Size(171, 26);
             this.produccionToolStripMenuItem.Text = "Produccion";
             this.produccionToolStripMenuItem.Click += new System.EventHandler(this.produccionToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(171, 26);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // consultasToolStripMenuItem
             // 
             this.consultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.produccionPorLocalidadYCultivoToolStripMenuItem});
+            this.produccionPorLocalidadYCultivoToolStripMenuItem,
+            this.consulta2PRUEBAToolStripMenuItem});
             this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
-            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(143, 24);
+            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
             this.consultasToolStripMenuItem.Text = "Consultas";
             // 
             // produccionPorLocalidadYCultivoToolStripMenuItem
@@ -105,6 +107,13 @@ namespace pryVonLab2Clase2
             this.produccionPorLocalidadYCultivoToolStripMenuItem.Size = new System.Drawing.Size(370, 26);
             this.produccionPorLocalidadYCultivoToolStripMenuItem.Text = "Produccion por localidad y tipo de cultivo";
             this.produccionPorLocalidadYCultivoToolStripMenuItem.Click += new System.EventHandler(this.produccionPorLocalidadYCultivoToolStripMenuItem_Click);
+            // 
+            // consulta2PRUEBAToolStripMenuItem
+            // 
+            this.consulta2PRUEBAToolStripMenuItem.Name = "consulta2PRUEBAToolStripMenuItem";
+            this.consulta2PRUEBAToolStripMenuItem.Size = new System.Drawing.Size(370, 26);
+            this.consulta2PRUEBAToolStripMenuItem.Text = "Consulta 2 (PRUEBA)";
+            this.consulta2PRUEBAToolStripMenuItem.Click += new System.EventHandler(this.consulta2PRUEBAToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -133,6 +142,7 @@ namespace pryVonLab2Clase2
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem produccionPorLocalidadYCultivoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consulta2PRUEBAToolStripMenuItem;
     }
 }
 

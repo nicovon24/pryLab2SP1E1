@@ -1,3 +1,5 @@
 Cba,10
 Bs As,2
 Salta,1
+Jujuy,3
+Santa fe,20

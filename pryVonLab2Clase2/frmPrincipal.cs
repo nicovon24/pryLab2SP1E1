@@ -45,5 +45,11 @@ namespace pryVonLab2Clase2
             frmConsulta frmNew = new frmConsulta();
             frmNew.Show();
         }
+
+        private void consulta2PRUEBAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsulta2 frmNew = new frmConsulta2();
+            frmNew.Show();
+        }
     }
 }
