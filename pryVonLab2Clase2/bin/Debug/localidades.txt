@@ -1,5 +1,3 @@
-Cba,10
-Bs As,2
-Salta,1
-Jujuy,3
-Santa fe,20
+cba,2
+bs as,4
+cba,132

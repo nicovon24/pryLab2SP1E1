@@ -1,4 +1,3 @@
-Merca,2
-Zanahoria,3
-Melon,10
-KK,20
+cenhoura,2
+liverpool,123
+liverpool,98

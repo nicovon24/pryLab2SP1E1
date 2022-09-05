@@ -25,6 +25,8 @@ namespace pryVonLab2Clase2
             nombre = txtNombre.Text;
             id = Convert.ToInt32(nudID.Text);
             bool idIsRepeated = false; //flag to check if id is repeated
+            StreamWriter swLoc = new StreamWriter("./localidades.txt", true);
+            swLoc.Close();
             StreamReader srLocalidades = new StreamReader("./localidades.txt");
             if (id != 0 && nombre != "")
             {

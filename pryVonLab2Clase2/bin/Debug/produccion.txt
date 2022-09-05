@@ -1,4 +1,2 @@
-Cba,Zanahoria,2,9/3/2022 12:00:00 AM
-Salta,Merca,2,9/3/2022 12:00:00 AM
-Jujuy,Merca,2,9/3/2022 12:00:00 AM
-Bs As,Melon,2,9/3/2022 12:00:00 AM
+bs as,liverpool,2,05/09/2022 0:00:00
+bs as,cenhoura,4,05/09/2022 0:00:00

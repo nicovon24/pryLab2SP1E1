@@ -24,15 +24,34 @@ namespace pryVonLab2Clase2
             StreamReader srCultivos = new StreamReader("./cultivos.txt");
             
             char separador = Convert.ToChar(","); //split only supports char data
-
+            bool flagLoc = false;
+            bool flagCultivos = false;
+            List<string> listLocations = new List<string>();
+            List<string> listCultivos = new List<string>();
             while (!srLocations.EndOfStream) {
                 string[] arrLocations = srLocations.ReadLine().Split(separador);
-                cbLocalidades.Items.Add(arrLocations[0]); //adding to the combo box only the location names from the location file
+                for(int i = 0; i < listLocations.Count; i++)
+                {
+                    if (listLocations[i] == arrLocations[0]) { flagLoc = true; }
+                }
+                if (flagLoc == false)
+                {
+                    listLocations.Add(arrLocations[0]);
+                    cbLocalidades.Items.Add(arrLocations[0]);
+                }
             }
             while (!srCultivos.EndOfStream)
             {
                 string[] arrCultivos = srCultivos.ReadLine().Split(separador);
-                cbCultivos.Items.Add(arrCultivos[0]); //adding only the names of the cultivos
+                for (int i = 0; i < listCultivos.Count; i++)
+                {
+                    if (listCultivos[i] == arrCultivos[0]) { flagCultivos = true; }
+                }
+                if (flagCultivos == false)
+                {
+                    listCultivos.Add(arrCultivos[0]);
+                    cbCultivos.Items.Add(arrCultivos[0]);
+                }
             }
             srLocations.Close(); //ALWAYS REMEMBER TO CLOSE THE FILES!!!    
             srCultivos.Close();
@@ -41,6 +60,8 @@ namespace pryVonLab2Clase2
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             //stream readers
+            StreamWriter swProduccion = new StreamWriter("./produccion.txt", true);
+            swProduccion.Close();
             StreamReader srProduccion = new StreamReader("./produccion.txt");
 
             //variables

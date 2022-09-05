@@ -25,6 +25,8 @@ namespace pryVonLab2Clase2
             codigo = Convert.ToInt32(nudCodigo.Text);
             nombre = txtNombre.Text;
             bool flag = false;
+            StreamWriter swCult = new StreamWriter("./cultivos.txt", true);
+            swCult.Close();
             //checking that codigo and nombre are not null
             if (codigo != 0 && nombre != "")
             {
