@@ -57,7 +57,6 @@ C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\bin\Debug\pryVonLab2Clase2.e
 C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\bin\Debug\pryVonLab2Clase2.exe
 C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\bin\Debug\pryVonLab2Clase2.pdb
 C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.csproj.AssemblyReference.cache
-C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.csproj.SuggestedBindingRedirects.cache
 C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.frmCultivos.resources
 C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.frmLocalidades.resources
 C:\Users\Alumno\Downloads\Lab2-SP1\pryVonLab2Clase2\obj\Debug\pryVonLab2Clase2.frmPrincipal.resources

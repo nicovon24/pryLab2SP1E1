@@ -13,16 +13,18 @@ namespace pryVonLab2Clase2
 {
     public partial class frmConsulta2 : Form
     {
-        int columnHeaders = 0; //each time we have a no repeated cultivo, will store the data there
+        int columnHeaders = 1; //each time we have a no repeated cultivo, will store the data there
         int rowsHeaders = 0;
         bool cultivoIsRepeated = false; //we do not want to repeat the cultivos
         bool cityIsRepeated = false;
+
         public frmConsulta2()
         {
             InitializeComponent(); 
             StreamReader srProduccion = new StreamReader("./produccion.txt");
             List<string> cultivos = new List<string>(); //will store the cultivos which are not repeated
             List<string> cities = new List<string>();
+            string[] arr;
             char separador = Convert.ToChar(",");
             while (!srProduccion.EndOfStream)
             {

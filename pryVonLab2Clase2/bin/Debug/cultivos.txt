@@ -1,3 +1,4 @@
-cenhoura,2
-liverpool,123
-liverpool,98
+Merca,321
+Ladsa,123
+Cenhoura,3212
+Lima,321312

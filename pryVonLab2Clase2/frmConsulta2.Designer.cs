@@ -48,11 +48,12 @@
             this.cultivo3,
             this.cultivo4,
             this.cultivo5});
-            this.grdQuery.Location = new System.Drawing.Point(-3, -2);
+            this.grdQuery.Location = new System.Drawing.Point(-4, -1);
+            this.grdQuery.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grdQuery.Name = "grdQuery";
             this.grdQuery.RowHeadersWidth = 51;
             this.grdQuery.RowTemplate.Height = 24;
-            this.grdQuery.Size = new System.Drawing.Size(806, 454);
+            this.grdQuery.Size = new System.Drawing.Size(928, 369);
             this.grdQuery.TabIndex = 1;
             this.grdQuery.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdQuery_CellContentClick);
             // 
@@ -100,10 +101,11 @@
             // 
             // frmConsulta2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(915, 366);
             this.Controls.Add(this.grdQuery);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmConsulta2";
             this.Text = "frmConsulta2";
             ((System.ComponentModel.ISupportInitialize)(this.grdQuery)).EndInit();
