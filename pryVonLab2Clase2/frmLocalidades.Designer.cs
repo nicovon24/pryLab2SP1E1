@@ -32,9 +32,10 @@ namespace pryVonLab2Clase2
             this.lblID = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
-            this.btnAceptar = new System.Windows.Forms.Button();
+            this.btnCargar = new System.Windows.Forms.Button();
             this.nudID = new System.Windows.Forms.NumericUpDown();
             this.btnReset = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudID)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,21 +63,22 @@ namespace pryVonLab2Clase2
             // 
             this.txtNombre.Location = new System.Drawing.Point(103, 91);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNombre.MaxLength = 30;
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(185, 22);
+            this.txtNombre.Size = new System.Drawing.Size(323, 22);
             this.txtNombre.TabIndex = 3;
             this.txtNombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // btnAceptar
+            // btnCargar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(189, 153);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(100, 28);
-            this.btnAceptar.TabIndex = 11;
-            this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = true;
-            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            this.btnCargar.Location = new System.Drawing.Point(326, 153);
+            this.btnCargar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCargar.Name = "btnCargar";
+            this.btnCargar.Size = new System.Drawing.Size(100, 28);
+            this.btnCargar.TabIndex = 11;
+            this.btnCargar.Text = "Cargar";
+            this.btnCargar.UseVisualStyleBackColor = true;
+            this.btnCargar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // nudID
             // 
@@ -87,13 +89,13 @@ namespace pryVonLab2Clase2
             0,
             0});
             this.nudID.Name = "nudID";
-            this.nudID.Size = new System.Drawing.Size(185, 22);
+            this.nudID.Size = new System.Drawing.Size(146, 22);
             this.nudID.TabIndex = 12;
             this.nudID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(19, 153);
+            this.btnReset.Location = new System.Drawing.Point(175, 153);
             this.btnReset.Margin = new System.Windows.Forms.Padding(4);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(100, 28);
@@ -102,14 +104,26 @@ namespace pryVonLab2Clase2
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
+            // btnVolver
+            // 
+            this.btnVolver.Location = new System.Drawing.Point(19, 153);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(100, 28);
+            this.btnVolver.TabIndex = 14;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // frmLocalidades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(331, 213);
+            this.ClientSize = new System.Drawing.Size(468, 213);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.nudID);
-            this.Controls.Add(this.btnAceptar);
+            this.Controls.Add(this.btnCargar);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblID);
@@ -127,8 +141,9 @@ namespace pryVonLab2Clase2
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.Button btnAceptar;
+        private System.Windows.Forms.Button btnCargar;
         private System.Windows.Forms.NumericUpDown nudID;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

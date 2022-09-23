@@ -52,12 +52,6 @@
     <Compile Include="frmConsulta.Designer.cs">
       <DependentUpon>frmConsulta.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmConsulta2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmConsulta2.Designer.cs">
-      <DependentUpon>frmConsulta2.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmCultivos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,9 +80,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmConsulta.resx">
       <DependentUpon>frmConsulta.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmConsulta2.resx">
-      <DependentUpon>frmConsulta2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCultivos.resx">
       <DependentUpon>frmCultivos.cs</DependentUpon>

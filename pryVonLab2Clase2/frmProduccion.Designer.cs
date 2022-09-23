@@ -39,6 +39,7 @@ namespace pryVonLab2Clase2
             this.cbLocalidades = new System.Windows.Forms.ComboBox();
             this.cbCultivos = new System.Windows.Forms.ComboBox();
             this.btnReset = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudToneladas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,7 +83,7 @@ namespace pryVonLab2Clase2
             0,
             0});
             this.nudToneladas.Name = "nudToneladas";
-            this.nudToneladas.Size = new System.Drawing.Size(288, 22);
+            this.nudToneladas.Size = new System.Drawing.Size(125, 22);
             this.nudToneladas.TabIndex = 9;
             this.nudToneladas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -135,7 +136,7 @@ namespace pryVonLab2Clase2
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(19, 329);
+            this.btnReset.Location = new System.Drawing.Point(201, 329);
             this.btnReset.Margin = new System.Windows.Forms.Padding(4);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(100, 28);
@@ -144,11 +145,23 @@ namespace pryVonLab2Clase2
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
+            // btnVolver
+            // 
+            this.btnVolver.Location = new System.Drawing.Point(19, 329);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(100, 28);
+            this.btnVolver.TabIndex = 16;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // frmProduccion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(520, 394);
+            this.ClientSize = new System.Drawing.Size(513, 394);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.cbCultivos);
             this.Controls.Add(this.cbLocalidades);
@@ -180,5 +193,6 @@ namespace pryVonLab2Clase2
         private System.Windows.Forms.ComboBox cbLocalidades;
         private System.Windows.Forms.ComboBox cbCultivos;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

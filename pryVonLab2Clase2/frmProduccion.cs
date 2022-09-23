@@ -62,7 +62,7 @@ namespace pryVonLab2Clase2
             //stream readers
             StreamWriter swProduccion = new StreamWriter("./produccion.txt", true);
             swProduccion.Close();
-            StreamReader srProduccion = new StreamReader("./produccion.txt");
+            StreamReader srProduccion = new StreamReader("./produccion.txt", true);
 
             //variables
             DateTime varDate = dateDate.Value.Date;
@@ -94,6 +94,10 @@ namespace pryVonLab2Clase2
                         sw.WriteLine(msg);
                     }
                     MessageBox.Show("Added data");
+                    cbLocalidades.Text = "";
+                    cbCultivos.Text = "";
+                    nudToneladas.Value = 0;
+                    cbLocalidades.Focus();
                 }
                 else
                 {
@@ -117,6 +121,13 @@ namespace pryVonLab2Clase2
         {
             File.WriteAllText("./produccion.txt", "");
             MessageBox.Show("Data erased");
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmPrincipal newFrm = new frmPrincipal();
+            newFrm.Show();
         }
     }
 }

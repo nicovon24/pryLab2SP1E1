@@ -19,37 +19,54 @@ namespace pryVonLab2Clase2
 
         private void localidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.Hide();
             frmLocalidades frmNew = new frmLocalidades();
             frmNew.Show();
         }
 
         private void cultivosToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.Hide();
             frmCultivos frmNew = new frmCultivos();
             frmNew.Show();
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
         }
 
         private void produccionToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.Hide();
             frmProduccion frmNew = new frmProduccion();
             frmNew.Show();
         }
 
         private void produccionPorLocalidadYCultivoToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.Hide();
             frmConsulta frmNew = new frmConsulta();
             frmNew.Show();
         }
 
         private void consulta2PRUEBAToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmConsulta2 frmNew = new frmConsulta2();
-            frmNew.Show();
+        }
+
+        private void consultasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void salirToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Have a good one!");
+            this.Hide();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

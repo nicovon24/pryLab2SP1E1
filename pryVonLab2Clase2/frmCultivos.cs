@@ -54,6 +54,8 @@ namespace pryVonLab2Clase2
                         MessageBox.Show("Added data");
                         nudCodigo.Text = "0";
                         txtNombre.Text = "";
+                        nudCodigo.Focus();
+
                     }
                     else
                     {
@@ -72,6 +74,13 @@ namespace pryVonLab2Clase2
         {
             File.WriteAllText("./cultivos.txt", "");
             MessageBox.Show("Data erased");
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmPrincipal newFrm = new frmPrincipal();
+            newFrm.Show();
         }
     }
 }

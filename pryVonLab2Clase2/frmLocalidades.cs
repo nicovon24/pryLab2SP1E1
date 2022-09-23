@@ -50,6 +50,7 @@ namespace pryVonLab2Clase2
                         MessageBox.Show("Added data");
                         nudID.Text = "0";
                         txtNombre.Text = "";
+                        nudID.Focus();
                     }
                     else
                     {
@@ -68,6 +69,13 @@ namespace pryVonLab2Clase2
         {
             File.WriteAllText("./localidades.txt", "");
             MessageBox.Show("Data erased");
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmPrincipal newFrm = new frmPrincipal();
+            newFrm.Show();
         }
     }
 }
